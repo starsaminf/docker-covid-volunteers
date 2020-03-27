@@ -10,5 +10,5 @@
 git clone https://github.com/starsaminf/docker-covid-volunteers/
 cd docker-covid-volunteers/
 chmod +x run.sh
-./run
+./run.sh
 ```
