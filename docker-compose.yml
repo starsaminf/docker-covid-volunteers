@@ -12,11 +12,11 @@ services:
   web:
     build:
       context: ./rails
-    working_dir: /mnt/rails
-    env_file: .env
-    command: bundle exec rails s -p 5000 -b '0.0.0.0'
     volumes:
       - ./rails:/mnt/rails
+    working_dir: /mnt/rails
+    env_file: .env
+    command: 'sh -c "yarn install && bin/rails db:setup && bundle exec rails s -p 5000 -b 0.0.0.0"'
     ports:
       - "80:5000"
     links:
