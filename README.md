@@ -1,6 +1,7 @@
 # docker-covid-volunteers
 
 ## Requisitos
+1. git
 1. docker
 1. docker-compose
 
