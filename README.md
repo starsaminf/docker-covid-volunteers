@@ -10,6 +10,7 @@
 ```shell=
 git clone https://github.com/starsaminf/docker-covid-volunteers/
 cd docker-covid-volunteers/
+git checkout dev
 chmod +x run.sh
 ./run.sh
 ```
