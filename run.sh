@@ -1,6 +1,5 @@
 #!/bin/bash
 
-apt update && apt upgrade -y
 git clone https://github.com/helpwithcovid/covid-volunteers
 
 mv covid-volunteers rails
