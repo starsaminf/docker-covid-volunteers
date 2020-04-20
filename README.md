@@ -1,11 +1,11 @@
 # docker-covid-volunteers
 
-## Requisitos
+## Requirements
 1. git
 1. docker
 1. docker-compose
 
-## Pasos
+## Steps
 
 ```shell=
 git clone https://github.com/starsaminf/docker-covid-volunteers/
@@ -14,7 +14,7 @@ git checkout dev
 chmod +x run.sh
 ./run.sh
 ```
-## Listo
+## Ready
 
 localhost
 
